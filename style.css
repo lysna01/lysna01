@@ -1,0 +1,103 @@
+body {
+    font-family: 'Times New Roman', Times, serif; color: #010f04;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #bd8bb4;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+#produk {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.produk h5 { 
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.produk h6 {
+    font-size: 1.2em;
+    font-weight: bold; 
+}
+
+.produk {
+    border: 1px solid #1b020f;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20x;
+    text-align: center;
+    width: 200px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.produk img {
+    max-width: 100%;
+    height: auto;
+}
+
+.produk p {
+    font-size: 1em;
+    color: #333;
+}
+
+.produk button {
+    background-color: #bd8bb4;
+    border: none;
+    color: rgb(10, 10, 1);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.produk button:hover {
+    background-color: #f5cede;
+}
+
+footer {
+    background-color: #bd8bb4;
+    color: #fcf8f8;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
